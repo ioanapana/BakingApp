@@ -23,15 +23,15 @@ public class RecipeObject implements Parcelable, Serializable {
     private String image;
 
     ////////// Constructors ////////
-
-    public RecipeObject(Integer id, String name, List<IngredientObject> ingredients, List<StepObject> steps, Integer servings, String image) {
-        this.id = id;
-        this.name = name;
-        this.ingredients = ingredients;
-        this.steps = steps;
-        this.servings = servings;
-        this.image = image;
-    }
+//
+//    public RecipeObject(Integer id, String name, List<IngredientObject> ingredients, List<StepObject> steps, Integer servings, String image) {
+//        this.id = id;
+//        this.name = name;
+//        this.ingredients = ingredients;
+//        this.steps = steps;
+//        this.servings = servings;
+//        this.image = image;
+//    }
 
     public RecipeObject(int id, String name, int servings, String image) {
         this.id = id;
